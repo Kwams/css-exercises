@@ -1,6 +1,6 @@
 div {
     background-color: red;
     color: white;
-    font-size: bold;
+    font-size: bold; /*should've used font-weight*/
     align-items: center;
 }
