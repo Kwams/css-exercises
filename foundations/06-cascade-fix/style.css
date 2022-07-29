@@ -3,7 +3,7 @@
   color: hsl(0, 100%, 50%);
 }
 
-.small-para {
+.para.small-para { /*had to specify both classes of the small para*/
   font-size: 14px;
 }
 
@@ -11,7 +11,7 @@
   font-size: 22px;
 }
 
-.confirm {
+#confirm-button { /* changed the selector to the ID because the .button class overrides this one*/
   background: green;
   color: white;
   font-weight: bold;
@@ -23,7 +23,7 @@
   font-size: 20px;
 }
 
-.child {
+.text.child { /*had to specify .text.child*/
   color: red;
   font-size: 14px;
 }
